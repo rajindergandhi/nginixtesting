@@ -2,4 +2,5 @@ FROM jenkins/jenkins:lts
 MAINTAINER rajinder gandhi "rajindergandhi@gmail.com"
 RUN apt update
 RUN apt install iproute2
+RUN apt install openjdk8
 CMD ['/bin/bash']
